@@ -31,6 +31,14 @@
 .gradient_bg {
     background: linear-gradient(90deg, #12B2E7 0%, #3F9DE4 100%);
 }
+.hover-bg-change {
+    background-blend-mode: multiply;
+    transition: background-color 0.5s ease;
+}
+
+.hover-bg-change:hover {
+    background-color: #3F9DE4;
+}
 
 /* 
 .text-gradient {

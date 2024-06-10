@@ -35,4 +35,5 @@ window.addEventListener('click', function() {
         mini_menu.classList.add('hidden');
     });
 });
-  
+
+    

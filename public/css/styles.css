@@ -762,9 +762,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[\#3F9DE4CC\] {
-  background-color: #3F9DE4CC;
-}
 .bg-cover {
   background-size: cover;
 }
@@ -1064,6 +1061,14 @@ video {
 
 .gradient_bg {
     background: linear-gradient(90deg, #12B2E7 0%, #3F9DE4 100%);
+}
+.hover-bg-change {
+    background-blend-mode: multiply;
+    transition: background-color 0.5s ease;
+}
+
+.hover-bg-change:hover {
+    background-color: #3F9DE4;
 }
 
 /* 
