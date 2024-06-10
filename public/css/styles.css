@@ -531,6 +531,9 @@ video {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
+.mb-16 {
+  margin-bottom: 4rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -546,11 +549,14 @@ video {
 .mb-5 {
   margin-bottom: 1.25rem;
 }
-.ml-auto {
-  margin-left: auto;
-}
 .mb-8 {
   margin-bottom: 2rem;
+}
+.ml-6 {
+  margin-left: 1.5rem;
+}
+.ml-auto {
+  margin-left: auto;
 }
 .flex {
   display: flex;
@@ -615,6 +621,9 @@ video {
 .max-w-\[831px\] {
   max-width: 831px;
 }
+.max-w-\[325px\] {
+  max-width: 325px;
+}
 .rotate-90 {
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -639,9 +648,6 @@ video {
 }
 .items-center {
   align-items: center;
-}
-.justify-start {
-  justify-content: flex-start;
 }
 .justify-center {
   justify-content: center;
@@ -676,8 +682,8 @@ video {
 .gap-8 {
   gap: 2rem;
 }
-.text-clip {
-  text-overflow: clip;
+.gap-11 {
+  gap: 2.75rem;
 }
 .rounded-2xl {
   border-radius: 1rem;
@@ -690,9 +696,6 @@ video {
 }
 .rounded-xl {
   border-radius: 0.75rem;
-}
-.rounded {
-  border-radius: 0.25rem;
 }
 .rounded-b-3xl {
   border-bottom-right-radius: 1.5rem;
@@ -715,6 +718,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(217 217 217 / var(--tw-border-opacity));
 }
+.bg-\[\#13344D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 52 77 / var(--tw-bg-opacity));
+}
 .bg-\[\#E6E6E6\] {
   --tw-bg-opacity: 1;
   background-color: rgb(230 230 230 / var(--tw-bg-opacity));
@@ -729,13 +736,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-\[\] {
-  background-color: ;
-}
-.bg-\[\#13344D\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(19 52 77 / var(--tw-bg-opacity));
 }
 .bg-cover {
   background-size: cover;
@@ -833,10 +833,6 @@ video {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -875,6 +871,21 @@ video {
 }
 .pt-10 {
   padding-top: 2.5rem;
+}
+.pb-12 {
+  padding-bottom: 3rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
+}
+.pt-16 {
+  padding-top: 4rem;
+}
+.pb-9 {
+  padding-bottom: 2.25rem;
+}
+.pt-9 {
+  padding-top: 2.25rem;
 }
 .text-left {
   text-align: left;
@@ -922,9 +933,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-\[20px\] {
-  font-size: 20px;
 }
 .font-bold {
   font-weight: 700;
