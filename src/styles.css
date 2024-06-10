@@ -29,6 +29,10 @@
     -webkit-text-fill-color: transparent;
 }
 
+.gradient_bg {
+    background: linear-gradient(90deg, #12B2E7 0%, #3F9DE4 100%);
+}
+
 /* 
 .text-gradient {
     background: linear-gradient(90deg, #12B2E7 0%, #3F9DE4 100%);
