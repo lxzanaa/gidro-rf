@@ -23,7 +23,6 @@
 }
 
 .text_gradient {
-    font-size: 72px;
     background: linear-gradient(90deg, #12B2E7 0%, #3F9DE4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
