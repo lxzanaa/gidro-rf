@@ -504,24 +504,41 @@
   </header>
 
   <section class="pb-5">
-    <div class="max-w-[1400px] relative px-5 mx-auto">
-      <div class="max-w-[1170px] relative py-[120px] bg-cover rounded-xl pl-[130px] bg-no-repeat"
-        style="background-image: url(./img/hero/bg1.png);">
-        <h2 class="text-white font-bold text-6xl mb-5">Все виды <br> гидроизоляции</h2>
-        <p class="text-white text-2xl mb-10">Небольшой подзаголовок размером <br> примерно в две строки</p>
-        <a class="text-[#32A3E5] py-3 px-8 rounded-full bg-white font-bold text-base" href="#">Подробнее</a>
-        <div class="">
-          <button
-            class="absolute cursor-pointer hover:opacity-90 transition-all flex right-[-310px] top-[205px] text-white font-medium text-3xl w-[510px] items-center gap-10  py-7 px-8 rounded-xl rotate-90 btn_gradient-2">
-            <span><svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10.208 24.7918L24.7913 10.2085M24.7913 10.2085H10.208M24.7913 10.2085V24.7918"
-                  stroke="currentColor" stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round" />
-              </svg></span>
-            Дренаж участка
-          </button>
+      <div class="cards mx-auto max-w-[1360px] h-[520px] flex">
+
+        <div class="card active" style="background-image: url(./img/hero/bg1.png);">
+          <div class="block">
+            <div class="info">
+              <h2 class="text-white font-bold text-6xl mb-5">Все виды <br> гидроизоляции</h2>
+              <p class="text-white text-2xl mb-10">Небольшой подзаголовок размером <br> примерно в две строки</p>
+              <a class="text-[#32A3E5] py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
+                href="#">Подробнее</a>
+            </div>
+          </div>
         </div>
+
+        <div class="card" style="background-image: url(./img/hero/bg2.png);">
+          <div class="block">
+            <div class="info">
+              <h2 class="text-white font-bold text-6xl mb-5">Дренаж участка</h2>
+              <p class="text-white text-2xl mb-10">Небольшой подзаголовок размером <br> примерно в две строки</p>
+              <a class="text-[#32A3E5] py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
+                href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="background-image: url(./img/hero/bg3.png);">
+          <div class="block">
+            <div class="info">
+              <h2 class="text-white font-bold text-6xl mb-5">Гидроизоляция методом<br>иньектирования</h2>
+              <p class="text-white text-2xl mb-10">Небольшой подзаголовок размером <br> примерно в две строки</p>
+              <a class="text-[#32A3E5] py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
+                href="#">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </div>
   </section>
 
   <section class="pb-5">
@@ -762,19 +779,19 @@
         </div>
 
         <div class="max-w-[413px] rounded-3xl flex flex-col h-[416px] w-full bg-cover p-8 hover-bg-change"
-        style="background-image: url(./img/uslugi/1.png);">
-        <div class="flex justify-between items-center">
-          <a href="#" class="text-white py-3 px-5 text-base gradient_bg rounded-full">кровельные работы</a>
-          <a class="py-2 px-3 gradient_bg rounded-full" href="#">
-            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7.87488 19.125L19.1249 7.875M19.1249 7.875H7.87488M19.1249 7.875V19.125" stroke="white"
-                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </a>
+          style="background-image: url(./img/uslugi/1.png);">
+          <div class="flex justify-between items-center">
+            <a href="#" class="text-white py-3 px-5 text-base gradient_bg rounded-full">кровельные работы</a>
+            <a class="py-2 px-3 gradient_bg rounded-full" href="#">
+              <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.87488 19.125L19.1249 7.875M19.1249 7.875H7.87488M19.1249 7.875V19.125" stroke="white"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+          <a class="mt-auto text_gradient font-extrabold text-base py-4 px-8 rounded-full gradient_bg inline-flex max-w-[291px]"
+            href="#">монтаж плоской кровли</a>
         </div>
-        <a class="mt-auto text_gradient font-extrabold text-base py-4 px-8 rounded-full gradient_bg inline-flex max-w-[291px]"
-          href="#">монтаж плоской кровли</a>
-      </div>
 
         <div class="max-w-[413px] rounded-3xl flex flex-col h-[416px] w-full bg-cover p-8 hover-bg-change"
           style="background-image: url(./img/uslugi/1.png);">
@@ -1092,6 +1109,8 @@
     </div>
   </footer>
 
+  <script src="https://kit.fontawesome.com/b2c89e649a.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
   <script src="./js/app.js"></script>
 
   <script>
@@ -1103,6 +1122,12 @@
       if (!searchInput.classList.contains('hidden')) {
         searchInput.focus();
       }
+    });
+
+
+    $(".card").click(function () {
+      $(".card").removeClass("active");
+      $(this).addClass("active");
     });
   </script>
 </body>
