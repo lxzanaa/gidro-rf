@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth overflow-x-hidden" >
 
 <head>
   <meta charset="UTF-8">
@@ -17,10 +17,24 @@
       <div class="flex justify-between items-center border-b pb-4 mb-4">
         <div class="flex items-center gap-4">
           <a href="index.html"><img src="./img/header/logo.png" alt="logo"></a>
-          <p class="text-black font-light text-sm pl-4 border-l">Все виды <br> гидроизоляции</p>
+          <p class="text-black md:block hidden font-light text-sm pl-4 border-l">Все виды <br> гидроизоляции</p>
         </div>
+        <button class="lg:hidden flex">
+          <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512">
+
+
+
+
+
+
+
+ed            <path fill="#000000"
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+          </svg>
+        </button>
         <div>
-          <ul class="flex items-center gap-8">
+          <ul class="lg:flex hidden items-center gap-8">
             <li><a class="flex items-center gap-2.5 text-[#161616] font-medium text-xl" href="#">
                 <span>
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +95,7 @@
 
       <div>
         <div class="flex items-center justify-between">
-          <ul class="flex items-center gap-12 ">
+          <ul class="lg:flex hidden items-center gap-12 ">
             <li>
               <a id="menu_btn" class="flex items-center gap-2 text-[#161616] text-lg uppercase  transition-all"
                 href="#">
@@ -424,7 +438,7 @@
             </li>
           </ul>
 
-          <div class="flex items-center gap-5">
+          <div class="lg:flex hidden items-center gap-5">
             <div class="flex items-center gap-0 relative active:opacity-80" id="search-button">
               <input name="search-input" type="text" id="search-input" placeholder="Search..."
                 class="text-[#8A8A8A] font-sans text-base leading-7 absolute left-[-220px] hidden w-64 outline-none -z-20 border py-2 pl-3 pr-8 rounded-2xl">
@@ -571,14 +585,15 @@
           </div>
         </div>
       </div>
-      <button class="swiper-button-next" ></button>
-      <button class="swiper-button-prev" ></button>
+      <button class="swiper-button-next"></button>
+      <button class="swiper-button-prev"></button>
       <div class="swiper-pagination"></div>
     </div>
   </section>
 
   <section class="pb-5">
-    <div class="max-w-[1360px] py-16 px-2 rounded-3xl grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 items-center justify-between bg-white  mx-auto">
+    <div
+      class="max-w-[1360px] py-16 px-2 rounded-3xl grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 items-center justify-between bg-white  mx-auto">
       <div class="text-center">
         <span class="mb-4 mx-auto w-[68px]">
           <svg class="w-[68px] mx-auto" width="58" height="58" viewBox="0 0 58 58" fill="none"
@@ -795,11 +810,13 @@
   <section class="pb-5">
     <div class="max-w-[1360px] md:px-10 px-5 md:py-16 py-8 bg-white mx-auto rounded-3xl">
       <h2 class="text-black font-medium text-4xl md:text-[40px] md:leading-10 text-center mb-2.5">Наши услуги</h2>
-      <p class="text-black text-base md:text-xl text-center mb-10">Мы выполняем ремонт любых помещений: квартир, частных домов и
-        коммерческой недвижимости. <br class="lg:block hidden" > Проводим инженерные и
+      <p class="text-black text-base md:text-xl text-center mb-10">Мы выполняем ремонт любых помещений: квартир, частных
+        домов и
+        коммерческой недвижимости. <br class="lg:block hidden"> Проводим инженерные и
         отделочные работы, а также занимаемся дизайном квартир.</p>
       <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
-        <div class="md:max-w-[413px] max-w-[370px] mx-auto rounded-3xl flex flex-col h-[370px] md:h-[416px] w-full bg-cover p-8 hover-bg-change"
+        <div
+          class="md:max-w-[413px] max-w-[370px] mx-auto rounded-3xl flex flex-col h-[370px] md:h-[416px] w-full bg-cover p-8 hover-bg-change"
           style="background-image: url(./img/uslugi/1.png);">
           <div class="flex justify-between items-center">
             <a href="#" class="text-white py-3 px-5 text-base gradient_bg rounded-full">кровельные работы</a>
@@ -814,7 +831,8 @@
             href="#">монтаж плоской кровли</a>
         </div>
 
-        <div class="md:max-w-[413px] max-w-[370px] mx-auto rounded-3xl flex flex-col h-[370px] md:h-[416px] w-full bg-cover p-8 hover-bg-change"
+        <div
+          class="md:max-w-[413px] max-w-[370px] mx-auto rounded-3xl flex flex-col h-[370px] md:h-[416px] w-full bg-cover p-8 hover-bg-change"
           style="background-image: url(./img/uslugi/1.png);">
           <div class="flex justify-between items-center">
             <a href="#" class="text-white py-3 px-5 text-base gradient_bg rounded-full">кровельные работы</a>
@@ -829,7 +847,8 @@
             href="#">монтаж плоской кровли</a>
         </div>
 
-        <div class="md:max-w-[413px] max-w-[370px] mx-auto md:col-span-2 col-span-1  h-[370px] lg:col-span-1 rounded-3xl flex flex-col md:h-[416px] w-full bg-cover p-8 hover-bg-change"
+        <div
+          class="md:max-w-[413px] max-w-[370px] mx-auto md:col-span-2 col-span-1  h-[370px] lg:col-span-1 rounded-3xl flex flex-col md:h-[416px] w-full bg-cover p-8 hover-bg-change"
           style="background-image: url(./img/uslugi/1.png);">
           <div class="flex justify-between items-center">
             <a href="#" class="text-white py-3 px-5 text-base gradient_bg rounded-full">кровельные работы</a>
@@ -855,22 +874,28 @@
         товары распространяется гарантия
         производителя, а цены на нашем сайте соответствуют рекомендованным производителем.</p>
       <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
-        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#"
+          class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/1.png" alt="logo">
         </a>
-        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#"
+          class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/2.png" alt="logo">
         </a>
-        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#"
+          class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex mx-auto max-w-[150px]" src="./img/logos/3.png" alt="logo">
         </a>
-        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#"
+          class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/4.png" alt="logo">
         </a>
-        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#"
+          class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/5.png" alt="logo">
         </a>
-        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#"
+          class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/6.png" alt="logo">
         </a>
       </div>
@@ -881,17 +906,20 @@
     <div class="max-w-[1360px] lg:flex items-start md:py-16 pt-8 rounded-3xl mx-auto bg-white md:px-10 ">
       <div>
         <div class="bg-[#F5F5F5] rounded-3xl lg:rounded-l-3xl p-10 mb-3">
-          <h2 class="text-black  font-medium md:text-[40px] lg:text-left text-center text-4xl md:leading-10 mb-4">О компании</h2>
-          <p class="text-black text-base md:text-lg max-w-[556px] lg:mb-1 mb-3 lg:text-left text-center">Компания ООО «Гидро-рф» основана в апреле 2016 года. Мы берем
+          <h2 class="text-black  font-medium md:text-[40px] lg:text-left text-center text-4xl md:leading-10 mb-4">О
+            компании</h2>
+          <p class="text-black text-base md:text-lg max-w-[556px] lg:mb-1 mb-3 lg:text-left text-center">Компания ООО
+            «Гидро-рф» основана в апреле 2016 года. Мы берем
             на себя весь цикл
             работ по гидроизоляционным и дренажным работам. Работаем с квартирами, частными домами и коммерческой
             недвижимостью.</p>
-          <p class="text-black text-lg lg:font-normal font-bold lg:mb-1 lg:text-left text-center mb-3">Выполняем различные услуги:</p>
+          <p class="text-black text-lg lg:font-normal font-bold lg:mb-1 lg:text-left text-center mb-3">Выполняем
+            различные услуги:</p>
           <ul class="list-disc pl-5 max-w-[280px] lg:mx-0 mx-auto">
-            <li class="md:text-base text-xs" >гидроизоляция и герметизация объектов;</li>
-            <li class="md:text-base text-xs" >дренажные работы и сооружение водоотвода,</li>
-            <li class="md:text-base text-xs" >отделочные работы,</li>
-            <li class="md:text-base text-xs" >инженерные работы</li>
+            <li class="md:text-base text-xs">гидроизоляция и герметизация объектов;</li>
+            <li class="md:text-base text-xs">дренажные работы и сооружение водоотвода,</li>
+            <li class="md:text-base text-xs">отделочные работы,</li>
+            <li class="md:text-base text-xs">инженерные работы</li>
           </ul>
         </div>
         <div class="grid md:grid-cols-3 grid-cols-1 md:text-left text-center md:mb-0 mb-3 gap-16 lg:pl-10 px-4">
@@ -918,10 +946,11 @@
   <section class="md:pt-10 pb-5 md:pb-20">
     <div class="max-w-[1280px] mx-auto gradient_bg lg:py-12 py-8 px-5 lg:px-[104px] rounded-3xl">
       <h2 class="text-white font-medium text-4xl md:text-[40px] md:leading-10 mb-2.5 text-center">Оставьте заявку</h2>
-      <p class="text-white text-base md:text-xl text-center mb-5 md:mb-10">Перезвоним в течение 10 минут. Обсудим задачи, найдем оптимальное
+      <p class="text-white text-base md:text-xl text-center mb-5 md:mb-10">Перезвоним в течение 10 минут. Обсудим
+        задачи, найдем оптимальное
         решение и запланируем работы. Ответим на
         вопросы и расскажем подробнее о действующих акциях. Будем на связи!</p>
-      <form class="text-center" >
+      <form class="text-center">
         <div
           class="md:grid-cols-3 grid grid-cols-1  items-center gap-5 justify-center bg-white max-w-[831px] rounded-3xl py-6 md:py-9 px-5 md:px-11 mx-auto mb-2.5">
           <input placeholder="имя"
@@ -945,7 +974,8 @@
   <section class="lg:pb-20 pb-5">
     <div class="max-w-[1360px] lg:px-10 px-5 lg:py-16 py-8 rounded-3xl mx-auto bg-white ">
       <h2 class="text-black font-medium md:text-[40px] text-4xl md:leading-10 mb-2.5 text-center">Полезные статьи</h2>
-      <p class="text-black text-base md:text-xl text-center max-w-[1073px] mx-auto mb-10">Мы публикуем полезные и интересные статьи
+      <p class="text-black text-base md:text-xl text-center max-w-[1073px] mx-auto mb-10">Мы публикуем полезные и
+        интересные статьи
         специально для вас. Помогаем определиться с нужным материалом или
         типом дома, даем практические советы рассказываем преимущества услуг. Собираем для вас интересный материал и
         пишем на самые актуальные темы из строительной и ремонтной сферы.</p>

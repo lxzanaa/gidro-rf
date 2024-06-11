@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    transition: all .5s ease-in-out;
+}
+
 .btn_gradient {
     background: linear-gradient(90deg, #12B2E7 0%, #3F9DE4 100%);
     transition: all .3s ease;
