@@ -522,6 +522,10 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -581,6 +585,15 @@ video {
 }
 .h-\[520px\] {
   height: 520px;
+}
+.h-\[400px\] {
+  height: 400px;
+}
+.h-\[500px\] {
+  height: 500px;
+}
+.h-\[450px\] {
+  height: 450px;
 }
 .w-64 {
   width: 16rem;
@@ -935,6 +948,10 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1090,7 +1107,6 @@ video {
 .hover_effect:hover {
     color: #33A2E4 !important;
 }
-
 .card{
 	position: relative;
 	min-width: 60px;
@@ -1104,7 +1120,6 @@ video {
 	border-radius: 20px;
 	transition: all 0.5s ease-in-out;
 }
-
 .block{
 	display: flex;
 	position: absolute;
@@ -1174,5 +1189,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
