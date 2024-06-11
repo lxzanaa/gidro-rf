@@ -541,41 +541,44 @@
 
     </div>
 
-    <div class="swiper mySwiper h-[450px]">
+    <div class="swiper mySwiper h-[450px] md:hidden block">
       <div class="swiper-wrapper">
-        <div class="swiper-slide px-10">
-          <div class="bg-cover" style="background-image: url(./img/hero/bg1.png);">
-            <h2 class="text-white font-bold text-3xl md:text-6xl mb-5">Все виды <br> гидроизоляции</h2>
-            <p class="text-white text-2xl mb-10">Небольшой подзаголовок размером <br> примерно в две строки</p>
-            <a class="text-[#32A3E5] py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
+        <div class="swiper-slide">
+          <div class="bg-cover px-14 h-[450px] pt-24" style="background-image: url(./img/hero/bg1.png);">
+            <h2 class="text-white font-bold text-3xl md:text-6xl mb-5">Все виды гидроизоляции</h2>
+            <p class="text-white text-lg md:text-2xl mb-5">Небольшой подзаголовок размером <br> примерно в две строки
+            </p>
+            <a class="text-[#32A3E5] inline-flex py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
               href="#">Подробнее</a>
           </div>
         </div>
-        <div class="swiper-slide px-10">
-          <div style="background-image: url(./img/hero/bg2.png);">
+        <div class="swiper-slide">
+          <div class="bg-cover px-14 h-[450px] pt-28" style="background-image: url(./img/hero/bg2.png);">
             <h2 class="text-white font-bold text-3xl md:text-6xl mb-5">Дренаж участка</h2>
-            <p class="text-white text-2xl mb-10">Небольшой подзаголовок размером <br> примерно в две строки</p>
-            <a class="text-[#32A3E5] py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
+            <p class="text-white text-lg md:text-2xl mb-5">Небольшой подзаголовок размером <br> примерно в две строки
+            </p>
+            <a class="text-[#32A3E5] inline-flex py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
               href="#">Подробнее</a>
           </div>
         </div>
-        <div class="swiper-slide px-10">
-          <div style="background-image: url(./img/hero/bg3.png);">
+        <div class="swiper-slide">
+          <div class="bg-cover px-14 h-[450px] pt-20" style="background-image: url(./img/hero/bg3.png);">
             <h2 class="text-white font-bold text-3xl md:text-6xl mb-5">Гидроизоляция методом <br> иньектирования</h2>
-            <p class="text-white text-2xl mb-10">Небольшой подзаголовок размером <br> примерно в две строки</p>
-            <a class="text-[#32A3E5] py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
+            <p class="text-white text-lg md:text-2xl mb-5">Небольшой подзаголовок размером <br> примерно в две строки
+            </p>
+            <a class="text-[#32A3E5] inline-flex py-3 px-8 rounded-full bg-white font-bold max-w-[159px] text-base"
               href="#">Подробнее</a>
           </div>
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+      <button class="swiper-button-next" ></button>
+      <button class="swiper-button-prev" ></button>
       <div class="swiper-pagination"></div>
     </div>
   </section>
 
   <section class="pb-5">
-    <div class="max-w-[1360px] p-16 rounded-3xl flex items-center justify-between bg-white  mx-auto">
+    <div class="max-w-[1360px] py-16 px-2 rounded-3xl grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10 items-center justify-between bg-white  mx-auto">
       <div class="text-center">
         <span class="mb-4 mx-auto w-[68px]">
           <svg class="w-[68px] mx-auto" width="58" height="58" viewBox="0 0 58 58" fill="none"
@@ -790,13 +793,13 @@
   </section>
 
   <section class="pb-5">
-    <div class="max-w-[1360px] px-10 py-16 bg-white mx-auto rounded-3xl">
-      <h2 class="text-black font-medium text-[40px] leading-10 text-center mb-2.5">Наши услуги</h2>
-      <p class="text-black text-xl text-center mb-10">Мы выполняем ремонт любых помещений: квартир, частных домов и
-        коммерческой недвижимости. <br> Проводим инженерные и
+    <div class="max-w-[1360px] md:px-10 px-5 md:py-16 py-8 bg-white mx-auto rounded-3xl">
+      <h2 class="text-black font-medium text-4xl md:text-[40px] md:leading-10 text-center mb-2.5">Наши услуги</h2>
+      <p class="text-black text-base md:text-xl text-center mb-10">Мы выполняем ремонт любых помещений: квартир, частных домов и
+        коммерческой недвижимости. <br class="lg:block hidden" > Проводим инженерные и
         отделочные работы, а также занимаемся дизайном квартир.</p>
-      <div class="flex gap-5">
-        <div class="max-w-[413px] rounded-3xl flex flex-col h-[416px] w-full bg-cover p-8 hover-bg-change"
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
+        <div class="md:max-w-[413px] max-w-[370px] mx-auto rounded-3xl flex flex-col h-[370px] md:h-[416px] w-full bg-cover p-8 hover-bg-change"
           style="background-image: url(./img/uslugi/1.png);">
           <div class="flex justify-between items-center">
             <a href="#" class="text-white py-3 px-5 text-base gradient_bg rounded-full">кровельные работы</a>
@@ -811,7 +814,7 @@
             href="#">монтаж плоской кровли</a>
         </div>
 
-        <div class="max-w-[413px] rounded-3xl flex flex-col h-[416px] w-full bg-cover p-8 hover-bg-change"
+        <div class="md:max-w-[413px] max-w-[370px] mx-auto rounded-3xl flex flex-col h-[370px] md:h-[416px] w-full bg-cover p-8 hover-bg-change"
           style="background-image: url(./img/uslugi/1.png);">
           <div class="flex justify-between items-center">
             <a href="#" class="text-white py-3 px-5 text-base gradient_bg rounded-full">кровельные работы</a>
@@ -826,7 +829,7 @@
             href="#">монтаж плоской кровли</a>
         </div>
 
-        <div class="max-w-[413px] rounded-3xl flex flex-col h-[416px] w-full bg-cover p-8 hover-bg-change"
+        <div class="md:max-w-[413px] max-w-[370px] mx-auto md:col-span-2 col-span-1  h-[370px] lg:col-span-1 rounded-3xl flex flex-col md:h-[416px] w-full bg-cover p-8 hover-bg-change"
           style="background-image: url(./img/uslugi/1.png);">
           <div class="flex justify-between items-center">
             <a href="#" class="text-white py-3 px-5 text-base gradient_bg rounded-full">кровельные работы</a>
@@ -845,29 +848,29 @@
   </section>
 
   <section class="pb-5">
-    <div class="max-w-[1360px] mx-auto bg-white px-28 py-16 rounded-3xl">
-      <h2 class="text-black font-medium text-[40px] leading-10 mb-2.5 text-center">Производители</h2>
+    <div class="max-w-[1360px] mx-auto bg-white px-5 lg:px-28 py-8 md:py-16 rounded-3xl">
+      <h2 class="text-black font-medium text-4xl md:text-[40px] md:leading-10 mb-2.5 text-center">Производители</h2>
       <p class="text-black text-xl mb-10 text-center max-w-[1073px]">Наш сайт является официальным дилером
         представленных торговых марок. На все
         товары распространяется гарантия
         производителя, а цены на нашем сайте соответствуют рекомендованным производителем.</p>
-      <div class="grid grid-cols-3 gap-5">
-        <a href="#" class="py-2 px-16 flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/1.png" alt="logo">
         </a>
-        <a href="#" class="py-2 px-16 flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/2.png" alt="logo">
         </a>
-        <a href="#" class="py-2 px-16 flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex mx-auto max-w-[150px]" src="./img/logos/3.png" alt="logo">
         </a>
-        <a href="#" class="py-2 px-16 flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/4.png" alt="logo">
         </a>
-        <a href="#" class="py-2 px-16 flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/5.png" alt="logo">
         </a>
-        <a href="#" class="py-2 px-16 flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
+        <a href="#" class="max-w-[367px] mx-auto w-full h-[90px] flex items-center justify-center bg-[#F5F5F5] rounded-3xl">
           <img class="flex" src="./img/logos/6.png" alt="logo">
         </a>
       </div>
