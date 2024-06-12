@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth overflow-x-hidden" >
+<html lang="en" class="scroll-smooth overflow-x-hidden">
 
 <head>
   <meta charset="UTF-8">
@@ -20,7 +20,7 @@
           <a href="index.html"><img src="./img/header/logo.png" alt="logo"></a>
           <p class="text-black md:block hidden font-light text-sm pl-4 border-l">Все виды <br> гидроизоляции</p>
         </div>
-        
+
         <div>
           <ul class="lg:flex hidden items-center gap-8">
             <li><a class="flex items-center gap-2.5 text-[#161616] font-medium text-xl" href="#">
@@ -79,7 +79,7 @@
                 href="#">заказать звонок</a></li>
           </ul>
         </div>
-        <button class="lg:hidden flex">
+        <button id="menu_open" class="lg:hidden flex">
           <i class="fa-solid fa-bars text-3xl" style="color: #00A0E3;"></i>
         </button>
       </div>
@@ -207,7 +207,7 @@
                       <a class="text-black text-xs text-left" href="#">Пристенный дренаж</a>
                     </li>
                     <li class="border-b py-2.5 px-5 hover:text-[#33A2E4] hover:bg-[#EAF1F6] transition-all">
-                      <a class="text-black text-xs text-left" href="#">Проект дренажа и ливневой канализации</a>
+                      <a class="text-black text-xs text-left" href="#">Проект дренажа и ливневой </a>
                     </li>
                     <li class="border-b py-2.5 px-5 hover:text-[#33A2E4] hover:bg-[#EAF1F6] transition-all">
                       <a class="text-black text-xs text-left" href="#">Проектирование дренажных систем</a>
@@ -364,7 +364,7 @@
                       <a class="text-black text-xs text-left" href="#">Пристенный дренаж</a>
                     </li>
                     <li class="border-b py-2.5 px-5 hover:text-[#33A2E4] hover:bg-[#EAF1F6] transition-all">
-                      <a class="text-black text-xs text-left" href="#">Проект дренажа и ливневой канализации</a>
+                      <a class="text-black text-xs text-left" href="#">Проект дренажа и ливневой </a>
                     </li>
                     <li
                       class="border-b rounded-b-3xl py-2.5 px-5 hover:text-[#33A2E4] hover:bg-[#EAF1F6] transition-all">
@@ -506,6 +506,182 @@
         </div>
       </div>
 
+    </div>
+
+    <div id="mobile_menu" class="fixed -left-full transition-all overflow-y-scroll top-0 h-screen p-8 w-full  gradient_bg z-50">
+      <div class="flex items-center justify-between">
+        <img src="./img/footer/logo.svg" alt="logo">
+        <button id="close_menu" class="fa fa-x text-white text-2xl"></button>
+      </div>
+      <div>
+        <ul class="flex flex-col gap-2 py-8">
+          <li class="overflow-hidden rounded-3xl p-4 text-white text-lg capitalize justify-between flex flex-col border transition-border border-thin" data-contact-container>
+            <a class="cursor-pointer flex justify-between w-full items-center" data-contact-toggle>
+              Контакт<i class="fa-solid fa-angle-right transition-transform " data-toggle-icon></i>
+            </a>
+            <ul class="mb-3 transition-all scale-y-0 origin-top hidden mt-3" data-contact-info>
+              <li><a class="p-2 text-white text-lg capitalize justify-between flex flex-col mb-3" href="#">пн.-пт. 8:00-21:00</a></li>
+              <li><a class="p-2 text-white text-lg capitalize justify-between flex flex-col mb-3" href="#">gidro-rf@mail.ru</a></li>
+              <li><a class="p-2 text-white text-lg capitalize justify-between flex flex-col" href="#">+7 (495) 080-58-05</a></li>
+            </ul>
+          </li>
+      
+          <li class="overflow-hidden rounded-3xl p-4 text-white text-lg capitalize justify-between flex flex-col border transition-border border-thin" data-contact-container>
+            <a class="cursor-pointer flex justify-between w-full items-center" data-contact-toggle>
+              услуги<i class="fa-solid fa-angle-right transition-transform" data-toggle-icon></i>
+            </a>
+            <ul class="mb-3 transition-all scale-y-0 origin-top hidden mt-3" data-contact-info>
+              <li class="overflow-hidden" data-inner-contact-container>
+                <a class="p-2 text-white text-lg capitalize justify-between flex items-center rounded-2xl mb-3 cursor-pointer" data-inner-contact-toggle>
+                  Кровельные работы<i class="fa-solid fa-angle-right transition-transform" data-inner-toggle-icon></i>
+                </a>
+                <ul class="pl-6 transition-all scale-y-0 origin-top hidden" data-inner-contact-info>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Глубинный дренаж участка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж вокруг дома и отмостка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж поверхностный</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж участка под ключ</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж фундамента</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Кольцевой дренаж вокруг дома</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Ливневая канализация</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж водосточной системы</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж дренажных колодцев</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Открытый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пластовый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пристенный дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проект дренажа и ливневой </a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проектирование дренажных систем</a></li>
+                </ul>
+              </li>
+              <li class="overflow-hidden" data-inner-contact-container>
+                <a class="p-2 text-white text-lg capitalize justify-between flex items-center rounded-2xl mb-3 cursor-pointer" data-inner-contact-toggle>
+                  Услуги дренажа<i class="fa-solid fa-angle-right transition-transform" data-inner-toggle-icon></i>
+                </a>
+                <ul class="pl-6 transition-all scale-y-0 origin-top hidden" data-inner-contact-info>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Глубинный дренаж участка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж вокруг дома и отмостка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж поверхностный</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж участка под ключ</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж фундамента</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Кольцевой дренаж вокруг дома</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Ливневая канализация</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж водосточной системы</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж дренажных колодцев</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Открытый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пластовый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пристенный дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проект дренажа и ливневой </a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проектирование дренажных систем</a></li>
+                </ul>
+              </li>
+      
+              <li class="overflow-hidden" data-inner-contact-container>
+                <a class="p-2 text-white text-lg capitalize justify-between flex items-center rounded-2xl mb-3 cursor-pointer" data-inner-contact-toggle>
+                  Услуги гидроизоляции<i class="fa-solid fa-angle-right transition-transform" data-inner-toggle-icon></i>
+                </a>
+                <ul class="pl-6 transition-all scale-y-0 origin-top hidden" data-inner-contact-info>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Глубинный дренаж участка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж вокруг дома и отмостка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж поверхностный</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж участка под ключ</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж фундамента</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Кольцевой дренаж вокруг дома</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Ливневая канализация</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж водосточной системы</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж дренажных колодцев</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Открытый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пластовый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пристенный дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проект дренажа и ливневой </a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проектирование дренажных систем</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="overflow-hidden rounded-3xl p-4 text-white text-lg capitalize justify-between flex flex-col border transition-border border-thin" data-contact-container>
+            <a class="cursor-pointer flex justify-between w-full items-center" data-contact-toggle>
+              компания<i class="fa-solid fa-angle-right transition-transform" data-toggle-icon></i>
+            </a>
+            <ul class="mb-3 transition-all scale-y-0 origin-top hidden mt-3" data-contact-info>
+              <li class="overflow-hidden" data-inner-contact-container>
+                <a class="p-2 text-white text-lg capitalize justify-between flex items-center rounded-2xl mb-3 cursor-pointer" data-inner-contact-toggle>
+                  Кровельные работы<i class="fa-solid fa-angle-right transition-transform" data-inner-toggle-icon></i>
+                </a>
+                <ul class="pl-6 transition-all scale-y-0 origin-top hidden" data-inner-contact-info>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Глубинный дренаж участка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж вокруг дома и отмостка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж поверхностный</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж участка под ключ</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж фундамента</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Кольцевой дренаж вокруг дома</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Ливневая канализация</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж водосточной системы</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж дренажных колодцев</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Открытый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пластовый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пристенный дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проект дренажа и ливневой </a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проектирование дренажных систем</a></li>
+                </ul>
+              </li>
+              <li class="overflow-hidden" data-inner-contact-container>
+                <a class="p-2 text-white text-lg capitalize justify-between flex items-center rounded-2xl mb-3 cursor-pointer" data-inner-contact-toggle>
+                  Услуги дренажа<i class="fa-solid fa-angle-right transition-transform" data-inner-toggle-icon></i>
+                </a>
+                <ul class="pl-6 transition-all scale-y-0 origin-top hidden" data-inner-contact-info>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Глубинный дренаж участка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж вокруг дома и отмостка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж поверхностный</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж участка под ключ</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж фундамента</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Кольцевой дренаж вокруг дома</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Ливневая канализация</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж водосточной системы</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж дренажных колодцев</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Открытый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пластовый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пристенный дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проект дренажа и ливневой </a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проектирование дренажных систем</a></li>
+                </ul>
+              </li>
+      
+              <li class="overflow-hidden" data-inner-contact-container>
+                <a class="p-2 text-white text-lg capitalize justify-between flex items-center rounded-2xl mb-3 cursor-pointer" data-inner-contact-toggle>
+                  Услуги гидроизоляции<i class="fa-solid fa-angle-right transition-transform" data-inner-toggle-icon></i>
+                </a>
+                <ul class="pl-6 transition-all scale-y-0 origin-top hidden" data-inner-contact-info>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Глубинный дренаж участка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж вокруг дома и отмостка</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж поверхностный</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж участка под ключ</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Дренаж фундамента</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Кольцевой дренаж вокруг дома</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Ливневая канализация</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж водосточной системы</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Монтаж дренажных колодцев</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Открытый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пластовый дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Пристенный дренаж</a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проект дренажа и ливневой </a></li>
+                  <li><a class="text-white text-sm px-3 hover:opacity-90 transition-all" href="#">Проектирование дренажных систем</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+
+          <li class="overflow-hidden rounded-3xl p-4 text-white text-lg capitalize justify-between flex flex-col border transition-border border-thin" data-contact-container>
+            <a class="cursor-pointer flex justify-between w-full items-center">проекты</a>
+          </li>
+          <li class="overflow-hidden rounded-3xl p-4 text-white text-lg capitalize justify-between flex flex-col border transition-border border-thin" data-contact-container>
+            <a class="cursor-pointer flex justify-between w-full items-center">производители</a>
+          </li>
+          <li class="overflow-hidden rounded-3xl p-4 text-white text-lg capitalize justify-between flex flex-col border transition-border border-thin" data-contact-container>
+            <a class="cursor-pointer flex justify-between w-full items-center">статьи</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
 

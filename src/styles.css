@@ -59,6 +59,16 @@ body{
     animation: slideInRight 0.5s ease-in-out forwards;
 }
 
+.transition-border {
+    transition: border-width 0.5s ease-in-out;
+  }
+  .border-thin {
+    border-width: 1px;
+  }
+  .border-thick {
+    border-width: 1px;
+  }
+
 /* 
 .text-gradient {
     background: linear-gradient(90deg, #12B2E7 0%, #3F9DE4 100%);
