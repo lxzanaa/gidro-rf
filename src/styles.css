@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     transition: all .5s ease-in-out;
 }
 
@@ -61,14 +61,27 @@ body{
 
 .transition-border {
     transition: border-width 0.5s ease-in-out;
-  }
-  .border-thin {
-    border-width: 1px;
-  }
-  .border-thick {
-    border-width: 1px;
-  }
+}
 
+.border-thin {
+    border-width: 1px;
+}
+
+.border-thick {
+    border-width: 1px;
+}
+
+.custom-input {
+    border: 1px solid #D9D9D9;
+    width: 233px;
+    padding: 0 7px;
+    outline: none;
+    font-size: 1rem;
+    height: 3rem;
+    border-radius: 9999px;
+    background-color: transparent;
+    color: #000;
+}
 /* 
 .text-gradient {
     background: linear-gradient(90deg, #12B2E7 0%, #3F9DE4 100%);
@@ -107,54 +120,63 @@ body{
 .hover_effect:hover {
     color: #33A2E4 !important;
 }
-.card{
-	position: relative;
-	min-width: 60px;
-	background: var(--bg);
-	overflow: hidden;
-	margin: 5px;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	cursor: pointer;
-	border-radius: 20px;
-	transition: all 0.5s ease-in-out;
+
+.card {
+    position: relative;
+    min-width: 60px;
+    background: var(--bg);
+    overflow: hidden;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
 }
-.block{
-	display: flex;
-	position: absolute;
-	right: 0;
-	height: 40px;
-	transition: all 0.5s ease-in-out;
+
+.block {
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: 40px;
+    transition: all 0.5s ease-in-out;
 }
-.info{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 10px;
-	transition: all 0.3s ease-in-out;
-	position: absolute;
-	bottom: 0;
-	transform: translateY(-100px);
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-100px);
 }
-.title{
-	font-weight: 700;
-	font-size: 24px;
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
 }
+
 .card.active {
-	flex-grow: 10000;
+    flex-grow: 10000;
 }
-.card.active .block{
-	bottom: 20px;
-	left: 20px;
+
+.card.active .block {
+    bottom: 20px;
+    left: 20px;
 }
-.card:not(.active) .block{
-	bottom: 10px;
-	left: 10px;
+
+.card:not(.active) .block {
+    bottom: 10px;
+    left: 10px;
 }
-.card.active .info{
-	opacity: 1;
+
+.card.active .info {
+    opacity: 1;
 }
-.card:not(.active) .info{
-	opacity: 0;
+
+.card:not(.active) .info {
+    opacity: 0;
 }
